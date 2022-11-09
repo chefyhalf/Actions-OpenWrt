@@ -15,7 +15,7 @@
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-sed -i '1i src-git themes https://github.com/openwrt/luci/tree/openwrt-21.02/themes' feeds.conf.default
+sed -i '1i src-git themes https://github.com/Lienol/openwrt-luci' feeds.conf.default
 sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
