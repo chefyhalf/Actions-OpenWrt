@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
 sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '1i src-git themes https://github.com/Lienol/openwrt-luci' feeds.conf.default
