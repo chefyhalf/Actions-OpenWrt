@@ -14,11 +14,12 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '1i src-git themes https://github.com/Lienol/openwrt-luci' feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
-sed -i '1i src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
-#git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+# sed -i '1i src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
