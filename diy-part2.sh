@@ -13,13 +13,3 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-material/g' feeds/luci/collections/luci/Makefile
-#进入 OpenWrt 源码 package 目录
-cd package
-#克隆插件源码
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
-#返回上一层目录
-cd ..
-#配置
-make menuconfig
-#在 luci -> application 选中插件，开始编译
-make package/luci-app-unblockneteasemusic/compile V=s
