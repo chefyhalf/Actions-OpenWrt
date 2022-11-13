@@ -21,4 +21,4 @@
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 sed -i '1i src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/immortalwrt/luci-app-unblockneteasemusic
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
