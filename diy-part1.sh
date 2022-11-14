@@ -18,7 +18,7 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.gi
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/openwrt-packages/luci-theme-rosy
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-packages/luci-app-bypass
 # sed -i '1i src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
-# sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
+sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '1i src-git themes https://github.com/Lienol/openwrt-luci' feeds.conf.default
