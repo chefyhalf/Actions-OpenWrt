@@ -16,7 +16,6 @@
 # Add a feed source
 # sed -i '1i src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/openwrt-packages/luci-app-unblockneteasemusic
-git clone https://github.com/rosywrt/luci-theme-rosy.git package/openwrt-packages/luci-theme-rosy
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-packages/luci-app-bypass
 # sed -i '1i src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
